@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 20px;
+  background: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  position: sticky;
+  z-index: 1000;
+}
+
+.pg-logo h5 {
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 5px;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 8px;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+  font-family: "Playfair Display", serif;
+  color: black;
+  font-weight: 600;
+  letter-spacing: 5px;
+  margin-right: 20px;
+}
+
+.container {
+  background: url("../image/hamburger.jpg") no-repeat;
+  height: 700px;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 85%;
+  left: 2%;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 15px;
+  color: rgba(73, 79, 85, 0.74);
+}
+
+.about {
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  width: 70%;
+  display: flex;
+  position: relative;
+}
+
+.about::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #f1f1f1;
+  top: 110%;
+}
+
+.abi-pic {
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+
+.abi-pic::before {
+  position: absolute;
+  content: "";
+  display: block;
+  background: rgba(255, 255, 255, 0.219);
+  height: 100%;
+  width: 100%;
+}
+
+.abi-pic img {
+  height: 600px;
+  width: 100%;
+}
+
+.about-dis {
+  width: 100%;
+}
+
+.about-dis h4 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.about-dis h6 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 20px;
+  letter-spacing: 7px;
+}
+
+.first-para {
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 20px 30px;
+  text-align: justify;
+}
+
+.special {
+  background-color: #f1f1f1;
+  color: #000;
+  padding: 5px;
+}
+
+.second-para {
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 20px 30px;
+  text-align: justify;
+  color: #757575;
+}
+
+.food {
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 50px;
+  width: 70%;
+  display: flex;
+  position: relative;
+}
+
+.food::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #f1f1f1;
+  top: 110%;
+}
+
+.food-item {
+  width: 100%;
+}
+
+.food-item h4 {
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.food-one {
+  padding: 20px 0;
+}
+
+.food-one h6 {
+  font-weight: 400;
+  font-size: 18px;
+  padding: 20px 0;
+  letter-spacing: 7px;
+}
+
+.food-one p {
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  color: rgb(117, 117, 117);
+}
+
+.food-pic {
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+
+.food-pic img {
+  height: 600px;
+  width: 100%;
+}
+
+.food-pic::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 600px;
+  background-color: rgba(255, 255, 255, 0.219);
+}
+
+.contact {
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.contact h4 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 54px;
+  color: #000;
+}
+
+.con-des p {
+  padding: 30px 0;
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.con-des h6 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgb(96, 125, 139);
+}
+
+.cus-msg input {
+  padding: 20px;
+  width: 500px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.cus-msg textarea {
+  padding: 20px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.cus-msg button {
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 400;
+  background-color: #f1f1f1;
+  color: black;
+  padding: 10px 20px;
+  border: 2px solid #f1f1f1;
+}
+
+.cus-msg button:hover {
+  background-color: black;
+  color: #f1f1f1;
+  padding: 10px 20px;
+  border: 2px solid black;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 50px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+footer a {
+  color: red;
+  text-decoration: none;
+}
